@@ -1,0 +1,36 @@
+@media (min-width: 768px) {
+    .completo{
+         grid-template-columns: repeat(3, 1fr);
+    }
+   
+} 
+@media (min-width: 768px) {
+    .contenedor_producto{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+} 
+@media (min-width: 430){
+    .img footer{
+            width: 100%;
+}
+}
+@media (min-width: 768px) {
+    .nosotros{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        width: 40rem;
+    }
+} 
+
+@media (min-width: 768px) {
+    header,img footer{
+        background: url(../FOTOS/embotelladora.jpg);
+        height: 35rem;
+        background-repeat: no-repeat;
+       
+        background-position: center center;
+        
+     }
+     
+} 

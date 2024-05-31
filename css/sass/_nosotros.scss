@@ -1,0 +1,25 @@
+/* NOSOTROS */
+.titulo_nosotros{
+    padding: 6rem;
+}
+
+.nosotros{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.nosotros_contenido{
+    text-align: center;
+    margin-top: 2rem;
+    padding: 5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    
+    
+}
+
+.imagen_nosotros:hover{
+    box-shadow: 2px 1px 21px 15px  $color-azul-oscuro;
+    transform: translatey(-2%);
+}
+

@@ -1,0 +1,191 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(#f9fafa, #4f63fc);
+}
+
+header {
+  background-image: linear-gradient(to right bottom, rgba(40, 37, 37, 0.7), rgba(40, 37, 37, 0.7)), url(../FOTOS/embotelladora.jpg);
+  height: 35rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+footer {
+  background-color: #1414b3;
+  width: 100%;
+  padding: 1rem 1rem;
+  text-align: center;
+  color: rgb(251, 251, 251) !important;
+}
+
+.img footer {
+  width: 100%;
+}
+
+.sub_titulo {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 5rem;
+  color: blue;
+}
+
+/* Navegador */
+.navbar {
+  background-color: #1414b3;
+}
+
+.nav-link {
+  color: rgb(1, 2, 2);
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.navbar-brand {
+  color: rgb(251, 251, 251) !important;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* PPRODUCTOS */
+.contenedor_producto {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 10rem;
+  padding: 6rem;
+}
+
+.contenedor_producto, .sombra_producto:hover {
+  transition: all 200ms ease;
+}
+
+.sombra_producto:hover {
+  box-shadow: 2px 1px 21px 15px rgb(3, 75, 79);
+  transform: translatey(-2%);
+}
+
+/* carrusel  */
+.foto_carrusel {
+  height: 50%;
+  width: 50%;
+}
+
+.tamaño_carrusel {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding: 4rem;
+}
+
+/* mapa */
+.mapa {
+  display: flex;
+  -moz-columns: 1fr 1fr;
+       columns: 1fr 1fr;
+  padding: 4rem;
+  justify-content: space-evenly;
+}
+
+.solo_mapa {
+  box-shadow: 2px 1px 21px 15px rgb(3, 75, 79);
+  border-radius: 10px;
+}
+
+.tabla_icono {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+.completo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10rem;
+  text-align: center;
+}
+
+/* FORMULARIO */
+/* FIN */
+@media (min-width: 768px) {
+  .completo {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 768px) {
+  .contenedor_producto {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 430) {
+  .img footer {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .nosotros {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 40rem;
+  }
+}
+@media (min-width: 768px) {
+  header, img footer {
+    background: url(../FOTOS/embotelladora.jpg);
+    height: 35rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+.parrafo1 {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.parrafon {
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 2rem;
+}
+
+.parrafo-nosotros {
+  font-family: "Pacifico", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 2rem;
+  text-align: center;
+  margin: 1.5rem;
+  color: rgb(1, 2, 2);
+}
+
+/* NOSOTROS */
+.titulo_nosotros {
+  padding: 6rem;
+}
+
+.nosotros {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.nosotros_contenido {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 5rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.imagen_nosotros:hover {
+  box-shadow: 2px 1px 21px 15px rgb(3, 75, 79);
+  transform: translatey(-2%);
+}/*# sourceMappingURL=estilos.css.map */

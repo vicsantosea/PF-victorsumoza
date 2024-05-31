@@ -1,0 +1,20 @@
+/* PPRODUCTOS */
+.contenedor_producto{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 10rem;
+    padding: 6rem;
+
+}
+.contenedor_producto,.sombra_producto:hover{
+   
+    transition: all 200ms ease;
+   
+    
+
+}
+.sombra_producto:hover{
+   box-shadow: 2px 1px 21px 15px $color-azul-oscuro;
+  transform: translatey(-2%);
+}

@@ -1,0 +1,269 @@
+@charset "UTF-8";
+
+body {
+  background: linear-gradient(to  bottom, rgb(248, 246, 248), rgba(129, 142, 239, 0.737));
+}
+
+header {
+  background-image: linear-gradient(to right bottom, rgba(9, 6, 6, 0.4),rgba(9,6,6,0.4)),url(../FOTOS/embotelladora.jpg);
+  height: 35rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+footer {
+  background-color: #1414b3;
+  width: 100%;
+  padding: 1rem 1rem;
+  text-align: center;
+  color: rgb(251, 251, 251) !important;
+}
+
+.img footer {
+  width: 100%;
+}
+.img-flex{
+  max-width: 100%;
+  display: grid;
+  
+}
+
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: italic;
+  text-align: center;
+  color: #1e21cc;
+  padding: 6rem;
+}
+
+.P-ubicacion{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.sub_titulo {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 5rem;
+  color: #1414b3;
+ 
+}
+.imagen-contacto{
+  max-width: 25rem;
+}
+@media (min-width: 768px) {
+  .imagen-contacto{
+    max-width: 30rem;
+  }
+} 
+
+/* Navegador */
+.navbar {
+  background-color: #1414b3;
+}
+
+.nav-link {
+  color: rgb(251, 251, 251) !important;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.navbar-brand {
+  color: rgb(251, 251, 251) !important;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* PPRODUCTOS */
+.contenedor_producto {
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  justify-content: center;
+  gap: 10rem;
+  padding: 6rem;
+}
+@media (min-width: 768px) {
+  .contenedor_producto{
+    grid-template-columns: repeat(3, 1fr);
+  }
+    
+} 
+
+.contenedor_producto, .sombra_producto:hover {
+  transition: all 200ms ease;
+}
+
+.sombra_producto:hover {
+  box-shadow: 2px 1px 21px 15px rgb(3, 75, 79);
+  transform: translatey(-2%);
+}
+
+/* carrusel  */
+.foto_carrusel {
+  height: 40%;
+  width: 70%;
+ 
+}
+
+.tamaño_carrusel {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding: 1.5rem;
+}
+
+/* mapa */
+.mapa {
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  padding: 4rem;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+    .mapa{
+      grid-template-columns: repeat(2, 1fr);
+      margin: 5rem;
+    }
+} 
+.datos{
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.solo_mapa {
+  box-shadow: 2px 1px 21px 15px rgb(3, 75, 79);
+  border-radius: 10px;
+}
+
+.tabla_icono {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+.completo {
+  display: grid;
+  grid-template-columns: repeat( 1fr);
+  gap: 3rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .completo {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 768px) {
+  .contenedor_producto {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 320px) {
+  .contenedor_producto {
+    grid-template-rows: (1,2);
+  }
+}
+@media (min-width: 430) {
+  .img footer {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .nosotros {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 40rem;
+  }
+}
+@media (min-width: 375px) {
+    .container-img{
+      width: 160%;
+      display: flex;
+      flex-direction: column;
+    
+}
+} 
+@media (min-width: 365px) {
+  .tamaño_carrusel {
+    
+    width: 0 auto;  }
+} 
+.container-img{
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.parrafo1 {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.parrafon {
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 2rem;
+  
+}
+
+
+.parrafo-nosotros {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 2rem;
+  text-align: center;
+  margin: 1.5rem;
+  color: rgb(1, 2, 2);
+  
+}
+
+/* NOSOTROS */
+.titulo_nosotros {
+  padding: 6rem;
+}
+
+.nosotros {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.nosotros_contenido {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 5rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.imagen_nosotros {
+  max-width: 20rem;
+  border-radius: 2rem;
+  box-shadow: 2px 1px 21px 15px rgb(3, 75, 79);
+}
+@media (min-width:768px) {
+  .imagen_nosotros{
+    max-width: 50rem;
+  }
+} 
+
+.imagen_nosotros:hover {
+  box-shadow: 2px 1px 21px 15px rgb(3, 75, 79);
+  transform: translatey(-2%);
+}
+.foto-nosotros{
+  text-align: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */
